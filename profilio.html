@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../profilio.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Kruti Patel</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <div class="social-media">
+                <!-- <a href="https://github.com/Kruti1906"><i class='bx bxl-github'></i></a> -->
+                <!-- <a href="https://www.linkedin.com/in/kruti Patel"><i class='bx bxl-linkedin' ></i></a> -->
+            </div>
+            <!-- <a href="Cv f.pdf" target="_blank" class="btn">Download CV</a> -->
+        </div>
+        <div class="home-img">
+            <img style="margin-left: 30px;"src="myphoto.jpg" alt="Devarshi">
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <!-- <img src="myphoto.jpg" alt="Devarshi"> -->
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p> I am Patel Kruti, a student at gujrat technology university,
+                pursuing Information Technology. My passion lies in becoming a skilled
+                web developer. Presently, I am engaged in an internship at syfrox, 
+                where I am refining my web development expertise and gaining invaluable 
+                experience from seasoned professionals. My approach is rooted in embracing 
+                challenges and maintaining a commitment to continuous learning, ensuring that 
+                I stay updated with the latest industry trends and best practices. I am 
+                enthusiastic about making a positive impact in the world of web development
+                through my dedication and growth mindset.</p>
+
+         </div>
+    </section>
+    
+    <!--Project section design-->
+    <section class="project" id="project">
+        <div class="project-heading">
+            <h4>Projects</h4>
+        </div>
+        <table>
+            <tr>
+                <th>Project Title</th>
+                <th>Description</th>
+                
+            </tr>
+            <tr>
+                <td>College Management System</td>
+                <td>•	College management system manages student and faculty member data.<br> 
+                    •	Students can view their attendance, events and results and faculty can upload study material. <br>
+                    •	We used HTML, CSS, JavaScript and bootstrap for Front-end. PHP and MySQL for Back-end. Apache server was used to host the database.<br> 
+                    •	I am working on front-end.<br>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>Finding Eligibility for Government Scheme</td>
+                <td>•	This project aims to provide an easy and single point access to information about welfare schemes of the Indian government, including eligible beneficiaries, type of benefits and scheme details.<br>
+                    •	It helps students and people to find schemes related to their eligibility. <br>
+                    •	We used HTML, CSS, JavaScript and bootstrap for Front-end. <br>
+                    •	I am working on Front-end.<br>
+                    
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--Footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Devarshi Kathiriya | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            <button id="theme-toggle" class="theme-toggle-btn"><i class='bx bx-moon'></i></button>
+
+        </div>
+    </footer>
+  <script src="portfolio.js"></script>
+
+</body>
+</html>
